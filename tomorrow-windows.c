@@ -157,7 +157,7 @@ int main () {
             }
 
             else if ((ada30 == 1) && (tanggal == 30)) {
-                printf("Next day dari tanggal yang kamu input adalah 1/%d/%d\n\n",tahun);
+                printf("Next day dari tanggal yang kamu input adalah 1/%d/%d\n\n",bulan + 1, tahun);
             }
 
             else {
