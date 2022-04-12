@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 int main () {
     char nama[200];
@@ -40,7 +42,7 @@ int main () {
         }
 
         int kabisat;
-            char str_kabisat[10];
+            char str_kabisat[100];
 
             if (((tahun % 4) == 0) && ((tahun % 100) != 0)) {
                 kabisat = 1;
