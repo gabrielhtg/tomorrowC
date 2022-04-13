@@ -1,10 +1,12 @@
 # Tomorrow C
 
-Ini adalah program yang dibuat dengan bahasa pemrograman C. Program ini berfungsi untuk mementukan tanggal untuk hari esok berdasarkan dengan tanggal yang sudah kamu masukkan sebelumnya. Ada dua versi dari program ini, antara lain:
+Ini adalah program yang dibuat dengan bahasa pemrograman C. Program ini berfungsi untuk mementukan tanggal untuk hari esok berdasarkan dengan tanggal yang sudah kamu masukkan sebelumnya. Ada tiga versi dari program ini, antara lain:
 - tomorrow-linux.c
   Program ini dibuat untuk user yang menggunakan sistem operasi linux.
-- tomorror-windows.c
+- tomorrow-windows.c
   Program ini dibuat untuk user yang menggunakan sistem operasi windows. 
+- tomorrow-without-clear.c
+  Program ini dibuat tanpa mengandung system("clear") maupun system("cls"), jadi aman untuk sistem operasi apapun.
 
 Selamat mencoba :smile:
 
