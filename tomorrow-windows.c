@@ -26,15 +26,16 @@ int main () {
         int ada30 = 0;
         int bulan31[] = {1, 3, 5, 7, 8, 10, 12};
         int bulan30[] = {4, 6, 9, 11};
+        int i;
 
-        for (int i = 0; i < 7; i++) {
+        for (i = 0; i < 7; i++) {
             if (bulan == bulan31[i]) {
                 ada31 = 1;
                 break;
             }
         }
 
-        for (int i = 0; i < 4; i++) {
+        for (i = 0; i < 4; i++) {
             if (bulan == bulan30[i]) {
                 ada30 = 1;
                 break;
